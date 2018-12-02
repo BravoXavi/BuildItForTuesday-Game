@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ModuleAudio.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleGameLevel.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleInput.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleMainMenu.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleRender.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleTextures.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleWindow.cpp">
+      <Filter>Source\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source\Game Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Module.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleAudio.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleGameLevel.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleInput.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleMainMenu.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleRender.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleTextures.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleWindow.h">
+      <Filter>Header\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header\Game Elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{df5ce934-5f8b-42d9-ac4a-314d36496cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3c517e36-533b-44ba-af04-5266d63feccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Modules">
+      <UniqueIdentifier>{352f98b7-8a46-4e3f-b7b8-4887576dba54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Modules">
+      <UniqueIdentifier>{f8552e7b-e4f6-46b8-bc3e-983b61a79918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2bad7236-9620-4dcc-9aa8-1e44a0bf15da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game Elements">
+      <UniqueIdentifier>{dd07a558-7bdc-4a01-ba6b-806d73914a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game Elements">
+      <UniqueIdentifier>{24898c5e-efa5-4449-b4d6-8274949dc4f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
